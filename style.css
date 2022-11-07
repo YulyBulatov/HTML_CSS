@@ -1,73 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    color: white;
+    
+}
+
+
 body {
-    background-color: yellow;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
     }
 
 
+.container{
+    width: 1200px;
+    background-color: royalblue;
+}
+
 header {
-    background-color: dodgerblue;
+    
     display: flex;
     flex-flow: column wrap;
     align-items: center; 
     justify-content: center;
-    
-    
+
 }
 
 #titre{
-    width: 700px;
-    height: 35px;
     text-align: center;
-    font-size: large;
+    font-size: 30px;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    color: white;
+}
+
+#top_figure{
+    width: 100%;
 }
 
 #Simpson_family{
-    width: 700px;
-    height: 245px
-}
-
-#center{
     display: flex;
-    flex-direction: row;
+    width: 100%;
 }
 
 main{
-    width: 700px;
-    height: 335px;
+   
     background-color: white;
     display: flex;
-    flex-wrap: row wrap;
+    flex-flow: row;
+    height: 650px
+    
+}
+
+h1{
+    color: gold;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
 }
 
 article{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 55%;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#simpsons{
+    font-family: Arial, sans-serif;
+    color: black;
 }
 
 nav{
-    width:125px;
-    height: 110px;
-    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    margin-left: 25px;
+    margin-top: 60px;
+    margin-bottom: 400px;
+    background-color: royalblue;
+    width: 10%;
+    font-family: Arial, sans-serif;
+
 }
 
 aside{
-    background-color: dodgerblue;
-    width: 150px;
-    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: royalblue;
+    width: 20%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 25px;  
+    font-family: Arial, sans-serif;
 }
 
 #Matt_Groening{
-    width: 100px;
-    height: 125px;
+    width:150px;
+    margin: 10px;
+    border: solid white;
+    
 }
 
+h3{
+      text-align: center;
+}
+
+
 footer{
-    background-color: dodgerblue;
+    background-color: royalblue;
     display: flex;
     justify-content: center;
 }
