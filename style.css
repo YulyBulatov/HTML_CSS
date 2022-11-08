@@ -7,18 +7,28 @@
     
 }
 
+/*---------------BODY---------------*/
 
 body {
     background-color: gold;
     display: flex;
     justify-content: center;
+    
+
     }
 
 
 .container{
-    width: 1200px;
+    width: 1024px;
     background-color: royalblue;
 }
+
+p{
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+
+/* ---------------------HEADER------------------- */
 
 header {
     
@@ -31,9 +41,10 @@ header {
 
 #titre{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Arial, sans-serif;
-    font-weight: bold;
+    font-weight: 800;
+    padding: 1%;
 }
 
 #top_figure{
@@ -45,27 +56,40 @@ header {
     width: 100%;
 }
 
+/* -------------------MAIN---------------- */
+
 main{
    
     background-color: white;
     display: flex;
-    flex-flow: row;
+    /* flex-flow: row wrap; */
+    justify-content: space-evenly;
     height: 650px
     
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 400px;
+    background-color: royalblue;
+    width: 15%;
+    font-family: Arial, sans-serif;
+
 }
 
 h1{
     color: gold;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 30px;
     font-family: Arial, sans-serif;
 }
 
 article{
-    width: 70%;
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 55%;
 
 }
 
@@ -74,35 +98,20 @@ article{
     color: black;
 }
 
-nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 25px;
-    margin-top: 60px;
-    margin-bottom: 400px;
-    background-color: royalblue;
-    width: 10%;
-    font-family: Arial, sans-serif;
-
-}
 
 aside{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-color: royalblue;
     width: 20%;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-right: 25px;  
-    font-family: Arial, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 150px;  
+    
 }
 
 #Matt_Groening{
-    width:150px;
+    width: 150px;
     margin: 10px;
     border: solid white;
     
@@ -110,11 +119,21 @@ aside{
 
 h3{
       text-align: center;
+      font-family: Arial, sans-serif;
+      
 }
 
+#bio{
+    margin: 10px 
+}
+
+/*-----------------FOOTER-----------*/
 
 footer{
+    padding: 1%;
     background-color: royalblue;
     display: flex;
     justify-content: center;
+    font-size: large;
+    font-weight: bold;
 }
