@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    color: white;
+    
+}
+
+/*---------------BODY---------------*/
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 10%;
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+
+img{
+    width: 100%;
+}
+
+/* ---------------------HEADER------------------- */
+
+header {
+    
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    align-items: center; 
+    justify-content: center;
+    background-color: royalblue;
+    
+}
+
+#titre{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    padding: 1%;
+
+}
+
+#top_figure{
+    width: 100%;
+}
+
+#Simpson_family{
+    display: flex;
+    width: 100%;
+}
+
+
+/*------------NAV----------------*/
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: royalblue;
+    height: 100px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    border-bottom: dashed;
+    
+    
+}
+
+ul{
+    display: inline-flex;
+    gap:20px
+}
+
+a{
+    text-decoration: none;
+}
+
+/* -------------------MAIN---------------- */
+
+main{
+    
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 650px
+    
+}
+
+
+h1{
+    color: gold;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+article{
+    width: 55%;
+    
+}
+
+#simpsons{
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+#posters{
+    display: inline-flex;
+    width: 550px;
+    margin-top: 10px;
+}
+
+.poster { 
+    margin: 1px;
+    height: 200px;
+    border: groove black;
+    overflow: hidden;   
+}
+
+
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: royalblue;
+    width: 30%;
+    margin-top: 100px;
+    margin-bottom: 45px;  
+    
+}
+
+#Matt_Groening{
+    width: 200px;
+    margin: 10px;
+    border: solid white;
+    
+}
+
+h3{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+}
+
+h4{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    font-style: italic;
+}
+
+#bio{
+    margin: 10px 
+}
+
+/*-----------------FOOTER-----------*/
+
+footer{
+    padding: 1%;
+    background-color: royalblue;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+}
